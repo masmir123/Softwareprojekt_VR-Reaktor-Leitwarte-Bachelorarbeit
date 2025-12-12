@@ -46,6 +46,9 @@ public class WelcomeScreen : MonoBehaviour
         backButton.SetActive(false);
         confirmButton.SetActive(true);
         scrollPanel.GetComponent<TextMeshProUGUI>().text = infoTexts[0];
+        
+        // Start TactSleeve vibration test
+        TactSleeveHaptic.PlayTactSleevesTest();
     }
 
     /// <summary>
