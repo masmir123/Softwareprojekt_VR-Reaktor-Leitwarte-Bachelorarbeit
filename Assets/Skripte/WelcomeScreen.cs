@@ -21,6 +21,7 @@ public class WelcomeScreen : MonoBehaviour
     public InputActionAsset clipbaordInputAction;
     /// <param name="infoTexts"> is an array containing the welcome message</param>
     private string[] infoTexts = new string[] {
+        "Hallo und <color=#00aaaa>Willkommen</color> \ud83c\udfe2",
         "Sie befinden sich in der Steuerzentrale eines Kernreaktors. Ihre Aufgaben umfassen die Überwachung der Systeme, die Steuerung der Energieproduktion und die Gewährleistung der Sicherheit. Ihnen stehen folgende Elemente zur Verfügung:",
         "📟 Hauptkonsole:\nZentrale Steuereinheit zur Regulierung des Reaktors und Überwachung der Systemparameter.",
         "💡 Statuslampen:\nInformieren Sie über den aktuellen Zustand der Reaktorkomponenten.",

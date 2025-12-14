@@ -15,7 +15,7 @@ TagManager:
   - Glow
   - Water
   - UI
-  - 
+  - Overlay UI
   - Focused
   - detached
   - 
@@ -40,7 +40,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - OVROverlayCanvas Rendering
   m_SortingLayers:
   - name: Default
     uniqueID: 0
